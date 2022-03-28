@@ -11,6 +11,7 @@
   inputs.src-murmur3-v0_1_1.ref   = "refs/tags/v0.1.1";
   inputs.src-murmur3-v0_1_1.owner = "boydgreenfield";
   inputs.src-murmur3-v0_1_1.repo  = "nimrod-murmur";
+  inputs.src-murmur3-v0_1_1.dir   = "";
   inputs.src-murmur3-v0_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
